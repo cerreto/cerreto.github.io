@@ -1,27 +1,41 @@
-.strofa {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	text-align: center;
-	font-size: 1vw;
-	color: black;
+.prose {
+	font-family: Verdana, Geneva, sans-serif;
 }
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
-  .strofa {
-    font-size: 25px;
-  }
-}
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
-  .strofa {
-    font-size: 15px;
-  }
-}
 
 .stanza {
 	display: block;
 	margin: auto;
 	width: 50%;
 	height: 50%;
+}
+
+.strofa {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 25px */
+@media screen and (min-width: 601px) {
+  .strofa {
+    font-size: 25px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 15px */
+@media screen and (max-width: 600px) {
+  .strofa {
+    font-size: 15px;
+  }
+}
+
+
+
+.centered {
+	text-align: center;
+}
+
+.with_border {
+	border-style: solid;
+	border-width: 3px;
 }
